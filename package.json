@@ -1,0 +1,42 @@
+{
+  "name": "woo-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^0.21.1",
+    "gsap": "file:gsap-bonus.tgz",
+    "next": "10.0.5",
+    "nextjs-progressbar": "^0.0.7",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-gsap": "^2.2.1",
+    "react-html-parser": "^2.0.2",
+    "react-lottie": "^1.2.3",
+    "react-multi-carousel": "^2.6.1",
+    "react-paginate": "^7.0.0",
+    "react-transition-group": "^4.4.1",
+    "sass": "^1.35.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.9",
+    "prettier": "^2.2.1",
+    "tailwindcss": "^2.0.4"
+  }
+}
