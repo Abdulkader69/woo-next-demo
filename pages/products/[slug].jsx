@@ -47,6 +47,7 @@ const Product = ({ product }) => {
     },
   };
 
+console.log(productDetails);
   return (
     <>
       <Head>
@@ -59,21 +60,21 @@ const Product = ({ product }) => {
             <Tween from={{ scale: 1.3, delay: 0.7, opacity: 0 }} duration={0.7} ease="power3.out">
               <div className={`${styles.product_image_gallery_wrap} second_level_blur rounded-lg`}>
                 <div className={`${styles.product_image_gallery}`}>
-                  {productImages && (
+                  {/* {productImages && (
                     <Carousel infinite keyBoardControl swipeable draggable responsive={responsive}>
                       {productImages.map((image) => {
-                        return (
-                          <div key={image.id} className={`${styles.product_gallery_item} flex flex-wrap justify-center items-center text-center`}>
+                        return ( */}
+                          <div className={`${styles.product_gallery_item} flex flex-wrap justify-center items-center text-center`}>
                             <Tween from={{ x: 30, delay: 1.1, opacity: 0 }} duration={0.7} ease="power3.out">
                               <div>
-                                <Image src={image.src} alt={image.name} width={400} height={400} />
+                                <Image src={productDetails.images[0].src} alt={productDetails.name} width={400} height={400} />
                               </div>
                             </Tween>
                           </div>
-                        );
+                        {/* );
                       })}
                     </Carousel>
-                  )}
+                  )} */}
                 </div>
               </div>
             </Tween>
