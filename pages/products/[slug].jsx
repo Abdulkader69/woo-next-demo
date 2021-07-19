@@ -1,7 +1,7 @@
 import { createRef, useRef } from 'react';
 import { Tween } from 'react-gsap';
 import ReactHtmlParser from 'react-html-parser';
-import Carousel from 'react-multi-carousel';
+// import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
 import Image from 'next/image';
@@ -40,12 +40,12 @@ const Product = ({ product }) => {
   const productImages = productDetails.images;
   const productCategories = productDetails.categories;
 
-  const responsive = {
-    device: {
-      breakpoint: { max: 4000, min: 300 },
-      items: 1,
-    },
-  };
+  // const responsive = {
+  //   device: {
+  //     breakpoint: { max: 4000, min: 300 },
+  //     items: 1,
+  //   },
+  // };
 
 console.log(productDetails);
   return (
