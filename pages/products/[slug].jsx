@@ -2,7 +2,7 @@ import { createRef, useRef } from 'react';
 import { Tween } from 'react-gsap';
 import ReactHtmlParser from 'react-html-parser';
 // import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+// import 'react-multi-carousel/lib/styles.css';
 
 import Image from 'next/image';
 import Head from 'next/head';
@@ -47,7 +47,7 @@ const Product = ({ product }) => {
   //   },
   // };
 
-console.log(productDetails);
+// console.log(productDetails);
   return (
     <>
       <Head>
